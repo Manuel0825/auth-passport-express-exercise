@@ -81,7 +81,7 @@ router.get('/:id', async (req, res) => {
 
   const findPost = await prisma.post.findUnique({
       where: {
-          id,
+          postId,
       },
   });
 
