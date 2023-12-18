@@ -36,7 +36,7 @@ router.post("/create", async (req, res) => {
 
     },
   });
-  res.redirect("/profile-page");
+  res.redirect("/posts/profile-page");
 });
 
 
